@@ -1,0 +1,65 @@
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    .title {
+        font-family: 'Pacifico', cursive;
+        font-size: 9.6rem;
+        color: #000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-weight: lighter;
+    }
+    .mn-link-cta {
+        width: 20vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mn-link-cta a {
+        font-family: 'Anton', sans-serif;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #000;
+        margin: 0% 4%;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        // text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        opacity: 0;
+        border-bottom: 1px solid transparent;
+        transition: .3s linear;
+
+        &:hover {
+            border-bottom: 1px solid silver;
+        }
+    }
+
+    .slide-left.one {
+        animation: 2s ease-out 0s 1 slideInFromLeft;
+        animation-fill-mode: forwards;
+    }
+
+    .slide-left.two {
+        animation: 2s ease-out 1s 1 slideInFromLeft;
+        animation-fill-mode: forwards;
+    }
+
+    .slide-left.three {
+        animation: 2s ease-out 2s 1 slideInFromLeft;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes slideInFromLeft {
+        0% {
+          transform: translateX(200%);
+          
+        }
+        100% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+}

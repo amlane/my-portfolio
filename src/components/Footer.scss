@@ -1,0 +1,46 @@
+.footer-cta {
+    border: 1px solid;
+    height: 200px;
+    border: 1px solid silver;
+    box-shadow: 0 0 8px silver;
+    background: black;
+    width: 100%;
+
+    .ftr-link-cta {
+        display: flex;
+        justify-content: space-evenly;
+        width: 30%;
+        margin: 0 auto;
+        padding: 1% 0 0 0;
+    }
+
+    .ftr-link-cta a {
+        color: #FAFAFA;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        font-size: 2.8rem;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+
+    p {
+        color: #FAFAFA;
+        font-family: 'Anton', sans-serif;
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 1% 0 0 0;
+    }
+
+    .footer-navigation {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 50%;
+        padding: 2% 0 0 0;
+    }
+
+    .fab, .fas {
+        font-size: 3.4rem;
+        color: #FAFAFA;
+    }
+}
