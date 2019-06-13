@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: baseline;
     position: relative;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
 
     .title {
@@ -33,7 +33,7 @@
         transition: .3s linear;
 
         &:hover {
-            border-bottom: 1px solid silver;
+            border-bottom: 1px solid black;
         }
     }
 

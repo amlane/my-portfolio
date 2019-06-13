@@ -1,7 +1,7 @@
 .projects-cta {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 
     div {
         height: 28vh;
@@ -10,7 +10,7 @@
         border-radius: 3px;
         background: white;
         box-shadow: 0 0 8px silver;
-        margin: 3% 2%;
+        margin: 3% 0%;
         display: flex;
         justify-content: center;
         align-items: center;

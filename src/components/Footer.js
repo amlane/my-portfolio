@@ -10,7 +10,7 @@ function Footer() {
                 <a href="www.amandalane.me/blog">Blog</a>{" "}
                 <a href="www.amandalane.me/about">About</a>{" "}
             </nav>
-            <p>amandathedev@outlook.com</p>
+            <p>webdevlane@gmail.com</p>
             <nav className="footer-navigation">
                 <i className="fab fa-github"></i>
                 <i className="fab fa-twitter"></i>
