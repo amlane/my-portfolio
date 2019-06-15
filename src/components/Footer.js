@@ -1,24 +1,24 @@
-import React from 'react';
+import React from "react";
 
-import './Footer.scss';
+import "./Footer.scss";
 
 function Footer() {
-    return (
-        <footer className="footer-cta">
-            <nav className="ftr-link-cta">
-                <a href="www.amandalane.me">Portfolio</a>{" "}
-                <a href="www.amandalane.me/blog">Blog</a>{" "}
-                <a href="www.amandalane.me/about">About</a>{" "}
-            </nav>
-            <p>webdevlane@gmail.com</p>
-            <nav className="footer-navigation">
-                <i className="fab fa-github"></i>
-                <i className="fab fa-twitter"></i>
-                <i className="fab fa-linkedin-in"></i>
-                <i className="fas fa-envelope"></i>
-            </nav>
-        </footer>
-    )
+  return (
+    <footer className="footer-cta">
+      <nav className="ftr-link-cta">
+        <a href="www.amandalane.me">Home</a>{" "}
+        <a href="www.amandalane.me/blog">Contact Us</a>{" "}
+        <a href="www.amandalane.me/about">About</a>{" "}
+      </nav>
+
+      <nav className="footer-navigation">
+        <i className="fab fa-github" />
+        <i className="fab fa-twitter" />
+        <i className="fab fa-linkedin-in" />
+        <i className="fas fa-envelope" />
+      </nav>
+    </footer>
+  );
 }
 
 export default Footer;
