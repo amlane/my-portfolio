@@ -1,0 +1,64 @@
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  height: 30vh;
+  background: rgb(43, 43, 43);
+
+  .title {
+    font-family: "Pacifico", cursive;
+    font-size: 9.6rem;
+    color: cornflowerblue;
+    font-weight: lighter;
+  }
+  .mn-link-cta {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+  }
+
+  .mn-link-cta a {
+    font-family: "Anton", sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    margin: 0% 4%;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    opacity: 0;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s linear;
+
+    &:hover {
+      border-bottom: 1px solid white;
+    }
+  }
+
+  .slide-left.one {
+    animation: 2s ease-out 0s 1 slideInFromLeft;
+    animation-fill-mode: forwards;
+  }
+
+  .slide-left.two {
+    animation: 2s ease-out 1s 1 slideInFromLeft;
+    animation-fill-mode: forwards;
+  }
+
+  .slide-left.three {
+    animation: 2s ease-out 2s 1 slideInFromLeft;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}

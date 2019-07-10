@@ -1,0 +1,24 @@
+.side-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 8%;
+  height: 60%;
+  position: fixed;
+  top: 25%;
+  left: 1%;
+
+  .fab,
+  .fas {
+    font-size: 3.4rem;
+    color: silver;
+    transition: 0.4s linear;
+  }
+
+  .fab:hover,
+  .fas:hover {
+    cursor: pointer;
+    color: black;
+  }
+}
